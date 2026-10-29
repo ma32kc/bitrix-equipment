@@ -1,0 +1,6 @@
+<?php
+
+$MESS['CUSTOM_EQUIPMENT_LIST_P_DEAL_ID']   = 'ID сделки';
+$MESS['CUSTOM_EQUIPMENT_LIST_P_GRID_ID']   = 'ID таблицы (grid)';
+$MESS['CUSTOM_EQUIPMENT_LIST_P_FILTER_ID'] = 'ID фильтра';
+$MESS['CUSTOM_EQUIPMENT_LIST_P_PAGE_SIZE'] = 'Записей на страницу';
