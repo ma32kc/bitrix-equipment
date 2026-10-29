@@ -1,0 +1,36 @@
+.custom-equipment-count {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 8px;
+	margin: 4px 0 10px;
+	padding: 8px 12px;
+	border: 1px solid #e5e7eb;
+	border-radius: 6px;
+	background: #f8fafc;
+	/* Поле только для отображения - выключаем любой ввод/выделение */
+	pointer-events: none;
+	user-select: none;
+}
+
+.custom-equipment-count__title {
+	color: #6b7280;
+	font-size: 13px;
+}
+
+.custom-equipment-count__value {
+	font-size: 15px;
+	font-weight: 600;
+	color: #111827;
+}
+
+/* Выделение для пользователя с ID 5 */
+.custom-equipment-count--highlight {
+	border-color: #f59e0b;
+	background: #fff7ed;
+	box-shadow: 0 0 0 1px #f59e0b inset;
+}
+
+.custom-equipment-count--highlight .custom-equipment-count__value {
+	color: #b45309;
+}
